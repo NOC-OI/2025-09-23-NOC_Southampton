@@ -111,17 +111,18 @@ This is a pilot workshop, testing out a lesson that is still under development. 
   Ocean Informatics is organizing a two day workshop on September 23 & 24 that will teach computer vision and machine learning methods to NOC scientists, based on the <a href="https://cv4ecology.caltech.edu/">CV4Ecology Short Course</a> and <a href="https://github.com/eor314/pogo_bioobs">POGO ML for Ocean Observations</a>. Computer vision (CV) is significantly accelerating environmental research by automating the analysis of raw data from a variety of sources (e.g. camera traps, drones, and satellites). The goal of our short intro to CV is to expose NOC scientists to the software engineering, machine learning and CV skills necessary to analyze big sets of visual data on their own. We will focus on ecological image data as an example task, but the techniques introduced are quite generic. Participants working with images, video, acoustics, satellite imagery, and model output will gain basic skill and vocabulary to jump start their work.
 </p>
 <p>
-Specifically, the workshop will include: 
+Specifically, the workshop will include:
+  </ul>
+    <li>A short, high-level introduction on what CV is and how it can be used. We will avoid in-depth theoretical treatments and focus on applying existing tools in a principled fashion.</li>  
 
-A short, high-level introduction on what CV is and how it can be used. We will avoid in-depth theoretical treatments and focus on applying existing tools in a principled fashion.  
+    <li>A hands-on project that will require participants to write their own Python code. We will supply a small, annotated image dataset in the domain of AI for wildlife conservation and enough code scaffolding so   participants do not have to start from scratch. NB: Python experience is not necessary! Depending on interest, we will divide the workshop into small subgroups based on level of comfort with the language.</li> 
 
-A hands-on project that will require participants to write their own Python code. We will supply a small, annotated image dataset in the domain of AI for wildlife conservation and enough code scaffolding so participants do not have to start from scratch. NB: Python experience is not necessary! Depending on interest, we will divide the workshop into small subgroups based on level of comfort with the language. 
+    <li>A maximum 5:1 student to teacher ratio to ensure everyone is able to get the help they need on the project or discuss general questions about machine learning.</li> 
 
-A maximum 5:1 student to teacher ratio to ensure everyone is able to get the help they need on the project or discuss general questions about machine learning. 
+    <li>Cloud-based computing resources for training and running models. Depending on interest, the compute will be provisioned either on the Data Science Platform or on JASMIN.</li> 
 
-Cloud-based computing resources for training and running models. Depending on interest, the compute will be provisioned either on the Data Science Platform or on JASMIN. 
-
-A follow-up workshop several weeks after the initial session to discuss progress on independent projects (i.e. data prep, model training, compute resources, etc). 
+    <li>A follow-up workshop several weeks after the initial session to discuss progress on independent projects (i.e. data prep, model training, compute resources, etc).</li> 
+  </ul>
 </p>
 <p>
 We expect to run the course from 0930 to 1700 on the 23rd and 24th with a two-hour lunch break from 1200-1400. Instructors will additionally be available until 1200 on the 25th before the open staff meeting to help participants finish their work or prepare to deploy model training routines on JASMIN. Ideally, participants will clear their schedule or move critical meetings to the long lunch breaks for the two full days of the workshop. To get the most out of the time, everyone should plan to focus on the course as much as possible.  
