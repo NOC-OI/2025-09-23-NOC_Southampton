@@ -112,7 +112,6 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 </p>
 <p>
 Specifically, the workshop will include:
-  </ul>
     <li>A short, high-level introduction on what CV is and how it can be used. We will avoid in-depth theoretical treatments and focus on applying existing tools in a principled fashion.</li>  
 
     <li>A hands-on project that will require participants to write their own Python code. We will supply a small, annotated image dataset in the domain of AI for wildlife conservation and enough code scaffolding so   participants do not have to start from scratch. NB: Python experience is not necessary! Depending on interest, we will divide the workshop into small subgroups based on level of comfort with the language.</li> 
@@ -122,7 +121,6 @@ Specifically, the workshop will include:
     <li>Cloud-based computing resources for training and running models. Depending on interest, the compute will be provisioned either on the Data Science Platform or on JASMIN.</li> 
 
     <li>A follow-up workshop several weeks after the initial session to discuss progress on independent projects (i.e. data prep, model training, compute resources, etc).</li> 
-  </ul>
 </p>
 <p>
 We expect to run the course from 0930 to 1700 on the 23rd and 24th with a two-hour lunch break from 1200-1400. Instructors will additionally be available until 1200 on the 25th before the open staff meeting to help participants finish their work or prepare to deploy model training routines on JASMIN. Ideally, participants will clear their schedule or move critical meetings to the long lunch breaks for the two full days of the workshop. To get the most out of the time, everyone should plan to focus on the course as much as possible.  
