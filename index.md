@@ -10,7 +10,7 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "50.8930098"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1.3974532"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "September 23-25, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 5:00 pm BST on 23rd and 24th, optionally 9:00 am - 12:00 noon BST on 25thth"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantime: "9:00 am - 5:00 pm BST on 23rd and 24th, optionally 9:00 am - 12:00 noon BST on 25th"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-09-23      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-09-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Eric Orenstein"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -108,8 +108,9 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 
 <p id="about-this-workshop">
   <strong>About this workshop:</strong>
-  Ocean Informatics is organizing a two day workshop on September 23 & 24 that will teach computer vision and machine learning methods to NOC scientists, based on the <a href="https://cv4ecology.caltech.edu/">CV4Ecology Short Course</a> and <a href="https://github.com/eor314/pogo_bioobs">POGO ML for Ocean Observations</a>. Computer vision (CV) is significantly accelerating environmental research by automating the analysis of raw data from a variety of sources (e.g. camera traps, drones, and satellites). The goal of our short intro to CV is to expose NOC scientists to the software engineering, machine learning and CV skills necessary to analyze big sets of visual data on their own. We will focus on ecological image data as an example task, but the techniques introduced are quite generic. Participants working with images, video, acoustics, satellite imagery, and model output will gain basic skill and vocabulary to jump start their work.  
-
+  Ocean Informatics is organizing a two day workshop on September 23 & 24 that will teach computer vision and machine learning methods to NOC scientists, based on the <a href="https://cv4ecology.caltech.edu/">CV4Ecology Short Course</a> and <a href="https://github.com/eor314/pogo_bioobs">POGO ML for Ocean Observations</a>. Computer vision (CV) is significantly accelerating environmental research by automating the analysis of raw data from a variety of sources (e.g. camera traps, drones, and satellites). The goal of our short intro to CV is to expose NOC scientists to the software engineering, machine learning and CV skills necessary to analyze big sets of visual data on their own. We will focus on ecological image data as an example task, but the techniques introduced are quite generic. Participants working with images, video, acoustics, satellite imagery, and model output will gain basic skill and vocabulary to jump start their work.
+</p>
+<p>
 Specifically, the workshop will include: 
 
 A short, high-level introduction on what CV is and how it can be used. We will avoid in-depth theoretical treatments and focus on applying existing tools in a principled fashion.  
@@ -121,20 +122,12 @@ A maximum 5:1 student to teacher ratio to ensure everyone is able to get the hel
 Cloud-based computing resources for training and running models. Depending on interest, the compute will be provisioned either on the Data Science Platform or on JASMIN. 
 
 A follow-up workshop several weeks after the initial session to discuss progress on independent projects (i.e. data prep, model training, compute resources, etc). 
-
+</p>
+<p>
 We expect to run the course from 0930 to 1700 on the 23rd and 24th with a two-hour lunch break from 1200-1400. Instructors will additionally be available until 1200 on the 25th before the open staff meeting to help participants finish their work or prepare to deploy model training routines on JASMIN. Ideally, participants will clear their schedule or move critical meetings to the long lunch breaks for the two full days of the workshop. To get the most out of the time, everyone should plan to focus on the course as much as possible.  
-
+</p>
+<p>
 If you are interested in participating, please register by close of play on the 11th September. Check out <a href="https://github.com/CV4EcologySchool/ct_classifierCV4E">ct_classifier</a> repo and <a href="https://github.com/eor314/pogo_bioobs19_imaging">POGO imaging course</a> to a sense of the material we will cover. 
-</p>
-
-<p id="course-notes">
-  <strong>Course Notes:</strong>
-  The course notes will be linked here closer to the course date.
-</p>
-
-<p id="who-can-attend">
-    <strong>Who can attend?:</strong>
-    This workshop is open to all staff and students from the National Oceanography Centre.
 </p>
 
 
@@ -358,8 +351,7 @@ of code below the Schedule `<h2>` header below with
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% elsif site.carpentry == "incubator" %}
-This workshop is teaching a lesson in 
-<a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>. Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for a list of lesson sections and estimated timings.
+The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. The workshop will include regular breaks, including a lunch break between noon and 2pm each day. Please <a href="mailto:{{page.email}}">contact the workshop organisers</a> if you would like more information about the planned schedule.
 {% endif %}
 
 {% comment %}
@@ -399,13 +391,7 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
-</p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  you will need access an up-to-date web browser.
 </p>
 
 {% comment %}
@@ -426,15 +412,3 @@ to include the relevant installation instructions.
 These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
-
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% elsif site.carpentry == "incubator" %}
-Please check the "Setup" page of
-<a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
-to obtain the software and data you will need to follow the lesson.
-{% endif %}
