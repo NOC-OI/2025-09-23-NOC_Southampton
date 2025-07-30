@@ -126,7 +126,10 @@ Specifically, the workshop will include:
 We expect to run the course from 0930 to 1700 on the 23rd and 24th with a two-hour lunch break from 1200-1400. Instructors will additionally be available until 1200 on the 25th before the open staff meeting to help participants finish their work or prepare to deploy model training routines on JASMIN. Ideally, participants will clear their schedule or move critical meetings to the long lunch breaks for the two full days of the workshop. To get the most out of the time, everyone should plan to focus on the course as much as possible.  
 </p>
 <p>
-If you are interested in participating, please register by close of play on the 11th September. Check out <a href="https://github.com/CV4EcologySchool/ct_classifierCV4E">ct_classifier</a> repo and <a href="https://github.com/eor314/pogo_bioobs19_imaging">POGO imaging course</a> to a sense of the material we will cover. 
+If you are interested in participating, please register by close of play on the 11th September. If there are no tickets left, please email <a href='mailto:{{email}}'>{{email}}</a>.
+</p>
+<p>
+Check out <a href="https://github.com/CV4EcologySchool/ct_classifierCV4E">ct_classifier</a> repo and <a href="https://github.com/eor314/pogo_bioobs19_imaging">POGO imaging course</a> to a sense of the material we will cover. 
 </p>
 
 
