@@ -10,7 +10,7 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "50.8930098"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1.3974532"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "September 23-24, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 5:00 pm BST (optionally 9:00 am - 12:00 noon BST on 25th)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantime: "9:30 am - 5:00 pm BST (optionally 9:30 am - 12:00 noon BST on 25th)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-09-23      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-09-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Eric Orenstein"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -108,7 +108,7 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 
 <p id="about-this-workshop">
   <strong>About this workshop:</strong>
-  Ocean Informatics is organizing a two day workshop on September 23 & 24 that will teach computer vision and machine learning methods to NOC scientists, based on the <a href="https://cv4ecology.caltech.edu/">CV4Ecology Short Course</a> and <a href="https://github.com/eor314/pogo_bioobs">POGO ML for Ocean Observations</a>. Computer vision (CV) is significantly accelerating environmental research by automating the analysis of raw data from a variety of sources (e.g. camera traps, drones, and satellites). The goal of our short intro to CV is to expose NOC scientists to the software engineering, machine learning and CV skills necessary to analyze big sets of visual data on their own. We will focus on ecological image data as an example task, but the techniques introduced are quite generic. Participants working with images, video, acoustics, satellite imagery, and model output will gain basic skill and vocabulary to jump start their work.
+  Ocean Informatics is organizing a two day workshop on September 23 & 24 that will teach computer vision and machine learning methods to NOC scientists, based on the <a href="https://cv4ecology.caltech.edu/">CV4Ecology Short Course</a> and <a href="https://github.com/eor314/pogo_bioobs">POGO ML for Ocean Observations</a>. Computer vision (CV) is significantly accelerating environmental research by automating the analysis of raw data from a variety of sources (e.g. camera traps, drones, and satellites). The goal of our short intro to CV is to expose NOC scientists to the software engineering, machine learning and CV skills necessary to analyse big sets of visual data on their own. We will focus on ecological image data as an example task, but the techniques introduced are quite generic. Participants working with images, video, acoustics, satellite imagery, and model output will gain basic skills and vocabulary to jump start their work.
 </p>
 <p>
 Specifically, the workshop will include:
