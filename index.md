@@ -224,6 +224,7 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
+{% comment %}
 <p id="roles">
   <strong>Roles:</strong>
   To learn more about the roles at the workshop (who will be doing what),
@@ -237,6 +238,7 @@ href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data
 helpers, and supporters who share a mission to teach foundational computational and data science
 skills to researchers.
 </p>
+{% endcomment %}
 
 {% comment %}
 ACCESSIBILITY
