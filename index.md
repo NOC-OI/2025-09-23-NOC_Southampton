@@ -129,7 +129,7 @@ We expect to run the course from 0930 to 1700 on the 23rd and 24th with a two-ho
 If you are interested in participating, please register by close of play on the 11th September. If there are no tickets left, please get in contact.
 </p>
 <p>
-Check out <a href="https://github.com/CV4EcologySchool/ct_classifierCV4E">ct_classifier</a> repo and <a href="https://github.com/eor314/pogo_bioobs19_imaging">POGO imaging course</a> to a sense of the material we will cover. 
+Check out <a href="https://github.com/CV4EcologySchool/ct_classifierCV4E">ct_classifier</a> repo and <a href="https://github.com/eor314/pogo_bioobs19_imaging">POGO imaging course</a> to get a sense of the material we will cover. 
 </p>
 
 
